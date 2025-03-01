@@ -1,5 +1,11 @@
-from PyQt5.QtWidgets import QMainWindow, QVBoxLayout
+from PyQt5.QtWidgets import (
+  QMainWindow, 
+  QVBoxLayout, 
+  QGraphicsBlurEffect,
+  QGraphicsDropShadowEffect
+)
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QColor
 
 from src.ui.Ui_interface import Ui_SpursAPI
 from src.components.fadelabel import FadeLabel
@@ -34,6 +40,17 @@ class SpursAPI(QMainWindow):
     _layout_welcome.addWidget(self.login_btn, alignment=Qt.AlignCenter)
     
     self.ui.welcome_page.setLayout(_layout_welcome)
+    
+    self.login_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.login_page))
+    # blur_effect_label = QGraphicsBlurEffect()
+    # blur_effect_label.setBlurRadius(10)
+    # self.ui.widget_fields.setGraphicsEffect(blur_effect_label)
+
+    shadow_effect = QGraphicsDropShadowEffect()
+    shadow_effect.setOffset(0, 0)
+    shadow_effect.setBlurRadius(10)
+
+    self.ui.widget_fields.setGraphicsEffect(shadow_effect)
 
     self.title_intro.fadeIn()
     self.title_intro.animation.finished.connect(self.login_btn.fadeIn)
