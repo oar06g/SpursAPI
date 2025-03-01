@@ -23,7 +23,7 @@ class LoginWindow(QWidget):
         self.animation.setDuration(4000)
         self.animation.setStartValue(QRect(50, 50, 300, 400))
         self.animation.setEndValue(QRect(60, 60, 280, 380))
-        self.animation.setLoopCount(-1)  # ⚡ يتحرك للأبد
+        self.animation.setLoopCount(-1)
         self.animation.start()
 
         # 📌 عناصر تسجيل الدخول

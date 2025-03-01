@@ -56,7 +56,7 @@ class Ui_SpursAPI(object):
         self.login_btnv.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.login_btnv.setObjectName("login_btnv")
         self.create_account_go = QtWidgets.QPushButton(self.widget_fields)
-        self.create_account_go.setGeometry(QtCore.QRect(30, 183, 221, 23))
+        self.create_account_go.setGeometry(QtCore.QRect(30, 200, 221, 23))
         self.create_account_go.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.create_account_go.setObjectName("create_account_go")
         self.horizontalLayout.addWidget(self.widget_fields)

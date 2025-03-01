@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2025\\Projects\\SpursAPI\\src\\cpp\\utiles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1AADE7-D8D9-4001-AB7C-BCB0CFC1EB60}|utiles\\utiles.vcxproj|D:\\2025\\Projects\\SpursAPI\\src\\cpp\\utiles\\utiles\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6F1AADE7-D8D9-4001-AB7C-BCB0CFC1EB60}|utiles\\utiles.vcxproj|solutionrelative:utiles\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\2025\\Projects\\SpursAPI\\src\\cpp\\utiles\\utiles\\dllmain.cpp",
+              "RelativeDocumentMoniker": "utiles\\dllmain.cpp",
+              "ToolTip": "D:\\2025\\Projects\\SpursAPI\\src\\cpp\\utiles\\utiles\\dllmain.cpp",
+              "RelativeToolTip": "utiles\\dllmain.cpp",
+              "ViewState": "AgIAAFkAAABgZmZmZmYkwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-01T11:13:45.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

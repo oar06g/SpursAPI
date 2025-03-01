@@ -10,6 +10,7 @@ from PyQt5.QtGui import QColor
 from src.ui.Ui_interface import Ui_SpursAPI
 from src.components.fadelabel import FadeLabel
 from src.components.fadebutton import FadeButton
+from src.utils import GetSerialNumberUse
 from src.utils.loader import load_styles
 from src.utils.checker import check_first_session
 from src.utils.variables import PATH_DARK_MOD_STYLE
